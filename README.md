@@ -8,3 +8,5 @@ A distance function for ordinal regression dimensional reduction (CSIC 5011 Mini
 **t-SNE** is from http://lvdmaaten.github.io/tsne/.
 
 Auto color generater comes from function **linspecer** https://github.com/davidkun/linspecer
+
+Parallel pool in Matlab is needed for distance calculation.
