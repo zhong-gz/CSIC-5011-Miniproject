@@ -1,0 +1,27 @@
+clc
+clear
+close all
+
+data = [];
+label = [];
+min_num = 0;
+max_num = 9;
+dim = 2;
+
+for i = min_num:max_num
+    path = ['Hand-written Digits dataset\train.',num2str(i)];
+    load(path);
+    data = [data ; train];
+    label = [label ; i*ones(size(train,1),1)];
+end
+
+Y = OR_MDS(data,label,dim);
+
+C = linspecer(max_num-min_num);
+
+if dim == 2
+    for i = min_num:max_num
+        scatter(Y(1,lab),Y(2,:))
+    end
+end
+
