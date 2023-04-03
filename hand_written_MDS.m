@@ -2,8 +2,9 @@ clc
 clear
 close all
 
-min_num = 4; %number of minimum number in dataset
-max_num = 6; %number of maximum number in dataset
+min_num = 0; %number of minimum number in dataset
+max_num = 9; %number of maximum number in dataset
+
 dim = 2;  %dimension of output data
 
 data = [];

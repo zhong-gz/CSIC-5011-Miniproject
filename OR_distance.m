@@ -7,6 +7,7 @@ function [D] = OR_distance(data,label)
 %                                and j th data.
 
     N = length(label);
+    
     %compute distance matrix D
     for i = 1:N
         parfor j = 1:N

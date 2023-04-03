@@ -3,8 +3,10 @@ clear
 close all
 
 min_num = 0; %number of minimum number in dataset
-max_num = 5; %number of maximum number in dataset
+max_num = 9; %number of maximum number in dataset
+
 dim = 2;  %dimension of output data
+
 perplexity = 30;  %perplexity of t-SNE
 
 data = [];

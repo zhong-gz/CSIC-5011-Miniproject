@@ -9,4 +9,4 @@ A distance function for ordinal regression dimensional reduction (CSIC 5011 Mini
 
 Auto color generater comes from function **linspecer** https://github.com/davidkun/linspecer
 
-Parallel pool in Matlab is needed for distance calculation.
+**Parallel pool** in Matlab is needed for distance calculation.
